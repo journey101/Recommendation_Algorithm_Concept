@@ -36,13 +36,13 @@
 - NMF : Non-negative 행렬분해
 
 - SGD(Stochastic Gradient Descent) : 결측치에 관계없이 사용할 수 있음. 
- (참고: https://eda-ai-lab.tistory.com/528)
+ -※참고자료: https://eda-ai-lab.tistory.com/528)
 
 - ALS(Alternating Least Square) : 기존 SGD가 2개 행렬(user latent, item latent)를 동시에 최적화하는 방법이라면,  ALS는 두 행렬 중 하나를 고정시키고 다른 하나의 행렬을 순차적으로 반복하면서 최적화하는 방법입니다. 이렇게 하면, 기존의 최적화 문제가 convex 형태로 바뀌기에 수렴된 행렬을 찾을 수 있는 장점이 있음. (결측치가 있으면 에러가 나므로 0으로 변경하여 진행해야 함)
- (1) 초기 아이템, 사용자 행렬을 초기화
- (2) 아이템 행렬 고정하고 사용자 행렬을 최적화
- (3) 사용자 행렬 고정하고 아이템 행렬을 최적화
- (4) 위 2,3과정을 반복. 
-  => convex형태의 문제가 되어, 수렴된 행렬의 '최적해'를 알게 됨. 
- (참고: https://eda-ai-lab.tistory.com/529?category=736098
+ - (1) 초기 아이템, 사용자 행렬을 초기화
+ - (2) 아이템 행렬 고정하고 사용자 행렬을 최적화
+ - (3) 사용자 행렬 고정하고 아이템 행렬을 최적화
+ - (4) 위 2,3과정을 반복. 
+  ==> convex형태의 문제가 되어, 수렴된 행렬의 '최적해'를 알게 됨. 
+ -※참고자료: https://eda-ai-lab.tistory.com/529?category=736098
 
