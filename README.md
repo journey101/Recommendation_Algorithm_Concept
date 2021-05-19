@@ -1,5 +1,5 @@
 # Recommendation_Algorithm_Concept_ver0.1
-추천모델 알고리즘 개념 정리 페이지(ver_0.1)
+추천모델 알고리즘 개념 정리 페이지(ver_0.1)_ongoing...
 
 ### 단순한 평점 예측 모델 
 ※[python Surprise lib](https://danthetech.netlify.app/DataScience/how-does-recommendation-algorithms-work-using-surpriselib#normalpredictor)에서 제공하는 추천 알고리즘 
